@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ubuntu;
+}
+
+nav{
+  background-color: #000;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 2em;
+  padding-top: 15%;
+}
+
+.nav-title:hover {
+  color: #fff;
+  background-color: rgb(61, 77, 185);
+}
+
+.telefono, .nombre {
+  margin-top: 5%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.telefono {
+  margin-bottom: 5%;
+}
+
+.postContenedor {
+  text-align: center;
+  border: 2px solid #fff;
+  background-color: rgba(117, 114, 117, 0.19);
+  border-radius: 10px;
+  height: 150px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 3%;
+
+}
+
+.right{
+  padding-top: 1.5%;
+  padding-left: 25%;
+  padding-bottom: 1.5%;
+}
+.iconos{
+  margin-top: 0;
+  font-size: 20px;
+  margin-left: 5em;
+  right: 0;
+  color: #fff;
+}
+
+.ico-trash {
+  background-color: red;
+}
+
+.ico-agregar {
+  background-color: rgb(246, 144, 9);
+}
+
+.ico-search {
+  background-color: rgb(101, 198, 31);
+}
+
+.btn-borrar {
+  border-radius: 4px;
+  background-color: #d9534f;
+  padding: 6px 12px;
+  color: #fff;
+  border-color: #d43f3a;
+  font-size: 17px;
+  font-weight: 400;
+  outline-style: none;
+  margin-left: 80%;
+  margin-top: -15%;
+}
+
+@media only screen and (max-width: 1275px){
+  .right{
+    padding-left: 15%;
+  }
+
+
+
+  @media only screen and (max-width: 1059px){
+
+    .nav-title {
+      margin-top: 0;
+      font-size: 2em;
+      background-color: #000;
+      color: #fff;
+      padding-top: 2%;
+    }
+    .right{
+      padding-left: 1%;;
+    }
+    .iconos{
+      margin-left: 4.5em;
+    }
+  }
+  }
+@media only screen and (max-width: 888px){
+  .iconos{
+    margin-left: 4em;
+  }
+}
+@media only screen and (max-width: 857px){
+  .iconos{
+    margin-left: 3em;
+  }
+}
+
+@media only screen and (max-width: 797px){
+  .iconos{
+    margin-left: 2em;
+  }
+}
+  @media only screen and (max-width: 766px){
+    nav{
+      background-color: rgba(214, 226, 219, 0.5);
+    }
+
+    .iconos {
+      margin-top: 5%;
+    }
+  }
